@@ -1,0 +1,63 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ccfc97;
+ }
+ titulo-principal {
+     font-size: 48px;
+     color: #ff097c;
+     text-align: center;
+     margin-bottom: 20px;
+     animation: fadeIn 5s;
+   }
+   
+   @keyframes fadeIn {
+     from {
+       opacity: 0;
+       transform: scale(0.5);
+       color:#ff097c
+     }
+     to {
+       opacity: 1;
+       transform: scale(1);
+       color:#fd009c
+     }
+   }
+ .elemento{
+     animation: fadeIn 2s;
+     font-size:24px;
+     transition:all 0.5 ease-in-out;
+ }
+ .contenedor-botones {
+  text-align: center;
+  margin-top: 100px;
+ }
+ 
+ .boton {
+  width: 200px;
+  height: 150px;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #eb73bd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.5s ease;
+ }
+ 
+ .boton:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(10, 10, 10, 0.5);
+ }
+ 
+ .boton img {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+ }
+ 
+ .boton span {
+  font-size: 18px;
+  color: #333;
+ }
